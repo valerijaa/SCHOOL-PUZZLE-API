@@ -18,16 +18,16 @@ var port = process.env.PORT || 8080;        // set our port
 // STATIC DATA, must be moved to DB afterwards
 var stops = [
     {
-        id: 1,
-        vuforiaName: 'stones',
-        type: 'info',
-        data: 'This text is for stones!'
+        Id: 1,
+        VuforiaName: 'stones',
+        Type: 'info',
+        Data: 'This text is for stones!'
     },
     {
-        id: 2,
-        vuforiaName: 'astronaut',
-        type: 'info',
-        data: 'This text is for astronaut!'
+        Id: 2,
+        VuforiaName: 'astronaut',
+        Type: 'info',
+        Data: 'This text is for astronaut!'
     }
 ];
 
@@ -42,7 +42,7 @@ router.get('/stops', function(req, res) {
 
 router.get('/stats', function(req, res) {
     res.json({
-        'totalStops':stops.length
+        'TotalStops':stops.length
     });
 });
 
