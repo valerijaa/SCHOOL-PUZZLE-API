@@ -28,6 +28,12 @@ var stops = [
         VuforiaName: 'astronaut',
         Type: 'info',
         Data: 'This text is for astronaut!'
+    },
+    {
+        Id: 3,
+        VuforiaName: 'drone',
+        Type: 'info',
+        Data: 'Text for drone!!!'
     }
 ];
 
