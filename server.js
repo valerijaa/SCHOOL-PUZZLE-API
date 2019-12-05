@@ -50,7 +50,7 @@ router.get('/stats', function(req, res) {
 router.get('/stop', function(req, res) {
     let vuforiaStopName = req.query.name;
     var matchingStops = stops.filter(function(stop) {
-        return stop.vuforiaName === vuforiaStopName;
+        return stop.VuforiaName === vuforiaStopName;
       });
     
     if (matchingStops.length < 1)
