@@ -40,6 +40,12 @@ var stops = [
         VuforiaName: 'QR2',
         Type: 'info',
         Data: 'Text for qr code!!!'
+    },
+     {
+        Id: 5,
+        VuforiaName: 'frame',
+        Type: 'info',
+        Data: 'hello text for qr with image!!!'
     }
     
 ];
