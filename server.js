@@ -34,7 +34,14 @@ var stops = [
         VuforiaName: 'drone',
         Type: 'info',
         Data: 'Text for drone!!!'
+    },
+     {
+        Id: 4,
+        VuforiaName: 'QR2',
+        Type: 'info',
+        Data: 'Text for qr code!!!'
     }
+    
 ];
 
 // ROUTES FOR OUR API
