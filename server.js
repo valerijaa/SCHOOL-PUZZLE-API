@@ -19,43 +19,41 @@ var port = process.env.PORT || 8080;        // set our port
 var stops = [
     {
         Id: 1,
-        VuforiaName: 'stones',
+        VuforiaName: 'canteen',
         Type: 'info',
-        Data: 'This text is for stones!',
-        Fact: 'Did you know that stones weight 20kg'
+        Data: 'Find closest stairs go to the first floor turn left bit straight and left again',
+        Fact: 'There are breakfast and lunch menus depending on time'
     },
     {
         Id: 2,
-        VuforiaName: 'astronaut',
+        VuforiaName: 'entrance',
         Type: 'info',
-        Data: 'This text is for astronaut!',
-        Fact: 'Did you know that astronauts like moon, and also eat space food that has space sauce, which tastes like a milky way.'
+        Data: 'With entrance door at your back go straight on until you reach canteen',
+        Fact: 'The school can be opened any time with student card'
     },
     {
         Id: 3,
-        VuforiaName: 'drone',
+        VuforiaName: 'creative',
         Type: 'info',
-        Data: 'Text for drone!!!',
-        Fact: 'Drones like to fly!!'
+        Data: 'Go back to the to stairs canteen, heading towards entrance turn left and go straight, next stop will be on your right.',
+        Fact: 'XR lab has also the newest Oculus Quest'
     },
      {
         Id: 4,
-        VuforiaName: 'QR2',
+        VuforiaName: 'suoffice',
         Type: 'info',
-        Data: 'Text for qr code!!!'
+        Data: 'Go back to the hall and at the end of it find stairs, last floor door with number 2 on them',
+        Fact: 'It’s open only on Monday, Wednesday and Thursday'
+        
     },
      {
         Id: 5,
-        VuforiaName: 'frame',
+        VuforiaName: 'administration',
         Type: 'info',
-        Data: 'hello text for qr with image!!!'
-    },
-     {
-        Id: 6,
-        VuforiaName: 'frame2',
-        Type: 'info',
-        Data: 'hello text for qr with another image!!!'
+        Data: '',
+        Fact: 'Everything regarding administration is handled here'
     }
+  
 ];
 
 // ROUTES FOR OUR API
