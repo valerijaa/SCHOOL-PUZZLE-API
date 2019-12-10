@@ -29,14 +29,32 @@ var stops = [
         VuforiaName: 'astronaut',
         Type: 'info',
         Data: 'This text is for astronaut!',
-        Fact: 'Did you know that astronauts like moon'
+        Fact: 'Did you know that astronauts like moon, and also eat space food that has space sauce, which tastes like a milky way.'
     },
     {
         Id: 3,
         VuforiaName: 'drone',
         Type: 'info',
         Data: 'Text for drone!!!',
-        Fact: 'Drones are used to deliver food at school since 2018'
+        Fact: 'Drones like to fly!!'
+    },
+     {
+        Id: 4,
+        VuforiaName: 'QR2',
+        Type: 'info',
+        Data: 'Text for qr code!!!'
+    },
+     {
+        Id: 5,
+        VuforiaName: 'frame',
+        Type: 'info',
+        Data: 'hello text for qr with image!!!'
+    },
+     {
+        Id: 6,
+        VuforiaName: 'frame2',
+        Type: 'info',
+        Data: 'hello text for qr with another image!!!'
     }
 ];
 
