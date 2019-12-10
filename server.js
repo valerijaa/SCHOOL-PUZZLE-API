@@ -21,19 +21,22 @@ var stops = [
         Id: 1,
         VuforiaName: 'stones',
         Type: 'info',
-        Data: 'This text is for stones!'
+        Data: 'This text is for stones!',
+        Fact: 'Did you know that stones weight 20kg'
     },
     {
         Id: 2,
         VuforiaName: 'astronaut',
         Type: 'info',
-        Data: 'This text is for astronaut!'
+        Data: 'This text is for astronaut!',
+        Fact: 'Did you know that astronauts like moon'
     },
     {
         Id: 3,
         VuforiaName: 'drone',
         Type: 'info',
-        Data: 'Text for drone!!!'
+        Data: 'Text for drone!!!',
+        Fact: 'Drones are used to deliver food at school since 2018'
     }
 ];
 
